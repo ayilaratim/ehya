@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 nav ul {
     display: flex;
@@ -9,9 +10,11 @@ li{
     list-style-type: none;
 }
 .btn {
-    color: blue;
+    color: white;
 }
-
+.btn button {
+    background-color: #034D82;
+}
 header {
     display: flex;
     align-items: center;
@@ -26,30 +29,52 @@ header {
 .hero h1 {
     color: white;
     font-family: DM Sans;
-    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    width: auto;
 }
-
-.heroForm {
-    padding-top: 7rem;
+.heroin3 h1 {
+    letter-spacing: normal;
+    width: 43%;
+    font-weight: 700;
 }
+.heroine p {
+    color: #FFFFFF;
+    width: 65%;
+}
+/* .hero img {
+    padding-top: -7rem;
+} */
 .heroBtn {
 display: flex;
 align-items: center;
+gap: 2rem;
 }
-.heroText { 
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+.heroin img {
+    width: 70%;
+}
+.heroin {
+    width :50%;
+    line-height: 0;
 }
 
-.container {
+.heroForm { 
+    display: flex; 
+    justify-content: space-between;
+    /* padding-bottom: -6rem; */
+}
+
+
+
+.headerHero {
  background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
- margin-bottom: 7rem;
+ padding-top: 2rem;
+ padding-left: 2rem;
 }
 
 .feature {
     display: flex;
-    gap: 5rem;
+    gap: 4rem;
     align-items: center;
     padding-left: 5rem;
 }
@@ -57,20 +82,61 @@ align-items: center;
     background-image: url(/Vector\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    width: auto;
+    margin: auto;
+    padding-bottom: 4rem;
+}
+.featureimg img {
+    width: 90%;
+}
+.featuretext2 h1 {
+    color: #034D82;
+    font-family: DM Sans;
+   font-size: 36px;
+   font-weight: 700;
+  line-height: 52px;
+ letter-spacing: 0.30000001192092896px;
+ text-align: left;
+ width: 70%;
+}
+
+.featuretext2 p {
+    color: #90A3B4;
+    font-family: DM Sans;
+   font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.30000001192092896px;
+  text-align: left;
+  width: 70%;
+}
+.colimg img {
+    width :100%;
 }
 .feature2 {
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: center;
+    margin: auto;
 }
 .featureimg2 {
     padding-top: 2rem;
 }
+.featurelist img {
+    width: 100;
+}
+.featurelist{
+    width:60%;
+}
+.featureimg2 img{
+    width: 80%;
+}
 
 .heroImage img {
     width: 100%;
-    margin-bottom: -4rem;
+    margin-top: -2rem;
+    /* margin-bottom: -4rem; */
 }
 .Learn {
     color: #04AADD;
@@ -88,6 +154,7 @@ align-items: center;
    line-height: 52px;
    letter-spacing: 0.30000001192092896px;
    text-align: left;
+   width: 50%;
 }
 
 .featuretext p {
@@ -98,34 +165,25 @@ align-items: center;
     line-height: 32px;
     letter-spacing: 0.30000001192092896px;
     text-align: left;
+    width: 50%;
 
 }
-.Learn {
+.Learn p {
     color: #04AADD;
 }
 
-.contentgroup1 {
-    background-image: url(/Rectangle\ 19.png);
-}
+.contentimage {
+    width: auto;
+    margin: auto;
+    padding-right: 3rem;
 
-.contentgroup2 {
-    background-image: url(/Rectangle\ 19.png);
 }
-
-.contentgroup3 {
-    background-image: url(/Rectangle\ 19.png);
-}
-
-.contentgroup4 {
-    background-image: url(/Rectangle\ 19.png);
+.contentimage img {
+    width: 90%;
+    margin: auto;
 }
 .content {
     background: #EFFBFF;
-}
-.contentgroup{
-    display: flex;
-    gap: 3rem;
-    justify-content: center;
 }
 .bodycontent h1{
     font-family: DM Sans;
@@ -155,26 +213,55 @@ align-items: center;
     display: flex;
     align-items: center;
 }
-
+.columntext2 {
+    width: auto;
+    margin: auto;
+}
 .columnsymbol {
-    color: #034D82;
+    width: auto;
+}
+.columnsymbol img {
+    width: 100%;
+}
+.hexano p {
+    width: auto;
 }
 
 .column {
     color: #034D82;
-}
+    font-weight: 700;}
 .context {
     display: flex;
     align-items: center;
+    padding: 3rem 3rem 5rem 3rem;
     justify-content: space-between;
+    gap: 0rem;
 }
 .Growth {
-    background-image: url(/Mask\ Group.png);
     display: flex;
+  background: linear-gradient(270.04deg, #01B8D9 0.05%, #24CEED 97.84%);
+    border: 4px solid #FFFFFF;
     align-items: center;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem; 
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: #FFFFFF;
     justify-content: space-between;
+    border-radius: 1rem;
+}
+
+.brandbtn {
+    background-image: url(/Group\ 42\ \(1\).png);
+}
+.brandbtn button {
+    background-color: white;
+    color: #01B8D9;
     margin: auto;
-    align-content: center;
+    padding: 1rem,1rem,1rem,1rem;
 }
 
 .icons {
@@ -187,32 +274,225 @@ align-items: center;
     align-items: center;
     color: white;
 }
-.foot {
+.foot ul {
     list-style: none;
-    align-items: center;
 }
 
-.footand {
+.foot h3 {
+    font-family: DM Sans;
+ font-size: 18px;
+ font-weight: 700;
+ line-height: 23.44px;
+}
+
+
+li{
     list-style: none;
 }
-.foothand {
-    list-style: none;
-    align-items: center;
-}
-.foothander{
-    list-style: none;
-}
+
 .footer {
     background-color:#081315;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .copyright {
     color: white;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
 }
 
 .network {
-    padding-left: 5rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    align-content: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.network img {
+    width: 100%;
+}
+.hexan {
+    width: auto;
+}
+.hexan button {
+    margin: auto;
+    width: auto;
+}
+
+
+@media  screen and (max-width:768px){
+    nav ul {
+        gap: 0.5rem
+    }
+   .hero h1 {
+        font-weight: 400;
+        font-size: 30px;
+        width: 50%;
+    }
+    .brandbtn button {
+        padding: 1rem,0rem,1rem,0rem;
+    }
+    .contentimage img {
+        width: 100%;
+    }
+    .featuretext p {
+        font-size: none;
+        font-weight: 300;
+        line-height: none;
+        letter-spacing: none;
+    }
+    .featureimg {
+        width: 80%;
+    }
+    .featureimg img {
+        width: 100%;
+    }
+    .feature {
+        gap: 3rem;
+    }
+    .network {
+        width: 65%;
+    }
+    .context {
+        gap:3rem;
+    }
+    .colimg img {
+        width: 60%;
+    }
+    .columntext2 {
+        width: 60%;
+        margin: auto;
+    }
+    .featuretext2 p {
+        width:auto;
+    }
+    .featuretext2 h1 {
+        width: 90%;
+    }
+    .featuretext h1 {
+        width: 80%;
+        font-weight: 600;
+    }
+    .featuretext p {
+        width: 100%;
+    }
+    
+
+}
+
+
+@media  screen and (max-width:1024px){
+    .heroin3 h1 {
+        width: 65%;
+    }
+    .heroine p {
+        width: 80%;
+    }
+    .hexano p {
+        width: 100%;
+    }
+
+}
+
+ 
+@media  screen and (max-width:425px) {
+    .heroin3 h1 {
+    width: 60%;
+    font-size: 400;
+    }
+    .heroine p {
+        width: 100%;
+        font-weight: 300;
+    }
+    .hexan {
+        width: 60%;
+    }
+    .hexan button {
+        width: 60%;
+    }
+
+    nav{
+        display: none;
+    }
+    header {
+        display: block;
+    }
+    .btn {
+        display: none;
+    }
+ .footcontainer {
+    display: block;
+ }
+ .Growth {
+    display: block;
+ }
+ .feature {
+    display: block;
+ }
+ .feature2 {
+    display: block;
+ }
+ .heroForm {
+    display: block;
+ }
+ .context {
+    display: block;
+ }
+ .heroBtn {
+    display: block;
+ }
+}
+
+@media screen and (max-width:375px) {
+    .heroin3 h1 {
+        width: 60%;
+        font-size: 400;
+        }
+        .heroine p {
+            width: 100%;
+            font-weight: 300;
+        }
+        .hexan {
+            width: 60%;
+        }
+        .hexan button {
+            width: 60%;
+        }
+    
+        nav{
+            display: none;
+        }
+        header {
+            display: block;
+        }
+        .btn {
+            display: none;
+        }
+     .footcontainer {
+        display: block;
+     }
+     .Growth {
+        display: block;
+     }
+     .feature {
+        display: block;
+     }
+     .feature2 {
+        display: block;
+     }
+     .heroForm {
+        display: block;
+     }
+     .context {
+        display: block;
+     }
+     .heroBtn {
+        display: block;
+     }
+     .featuretext h1 {
+        width:100%;
+        font-size: 27px;
+     }  
 }
