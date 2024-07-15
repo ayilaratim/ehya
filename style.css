@@ -1,25 +1,30 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 nav ul {
     display: flex;
     gap: 2rem;
+    color: #FFFFFF;
 }
 li{
     list-style-type: none;
 }
-.btn {
-    color: white;
-}
+
 .btn button {
     background-color: #034D82;
+    border: 0;
+    padding: 10px 15px 10px 15px;
+    color: white;
 }
 header {
     display: flex;
     align-items: center;
    justify-content: space-between;
+   padding: 0 5rem 0 5rem;
 }
+
 
 .head {
     display: flex;
@@ -35,12 +40,17 @@ header {
 }
 .heroin3 h1 {
     letter-spacing: normal;
-    width: 43%;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 64px;
+    font-family: sans-serif;
+    width: 79%;
+    margin: 0;
 }
 .heroine p {
     color: #FFFFFF;
     width: 65%;
+    font-size: 16px;
+    line-height: 26px;
 }
 /* .hero img {
     padding-top: -7rem;
@@ -62,6 +72,8 @@ gap: 2rem;
     display: flex; 
     justify-content: space-between;
     /* padding-bottom: -6rem; */
+    padding-left: 5rem;
+    padding-top: 10rem;
 }
 
 
@@ -135,8 +147,13 @@ gap: 2rem;
 
 .heroImage img {
     width: 100%;
-    margin-top: -2rem;
     /* margin-bottom: -4rem; */
+}
+.heroImage {
+    width: 50%;
+}
+.hero {
+    width: 50%;
 }
 .Learn {
     color: #04AADD;
@@ -319,6 +336,10 @@ li{
 .hexan button {
     margin: auto;
     width: auto;
+    color: #01B8D9;
+    padding: 1rem  1rem 1rem 1rem;
+    border-radius: 4px;
+    border: 0;
 }
 
 
